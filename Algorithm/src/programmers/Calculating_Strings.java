@@ -8,7 +8,7 @@ public class Calculating_Strings {
         String[] str = my_string.split(" ");
 
         if(!str[0].equals("-") || !str[0].equals("+"))
-            answer = Integer.parseInt(str[1]);
+            answer = Integer.parseInt(str[0]);
         for(int i=0; i<str.length; i++){
             if(str[i].equals("+")){
                 answer += Integer.parseInt(str[i+1]);
