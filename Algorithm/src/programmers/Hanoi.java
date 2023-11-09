@@ -28,7 +28,7 @@ public class Hanoi {
         }
         // 1번 기둥의 n-1개를 3번을 걸쳐 2번으로 이동시킴
         dfs(n-1, start, mid, to);
-
+        System.out.println(ansList);
         // 가장 큰 n을 1에서 3으로 이동시킴
         ansList.add(new int[]{start, to});
 
